@@ -1,0 +1,43 @@
+git init  - ініціалізація нового локального репозиторію
+
+git add [-A, -all, .] - додавання змін в локальний кошик гіта
+
+git commit [-m, --amend]  - підготовка пакетів до коміту
+
+git rebase [-i, -no--ff] - ставить коміт локальної бранчі вище мастера
+
+git branch [-r, -D] - показує бранчі (локальні і ремоутні)
+
+git merge <branch> - переносить зміни із однієї бранчі доіншої
+
+git fetch - заливає всю інфуі з репозиторію
+
+git log - список комітів
+
+git [global/local] config
+
+git pull <BRANCH> - заливає зміни конкретної бранчі
+
+git checkout [-b] <branch> - переходить на бренчу  
+
+git branch "name-branch" - створює бранчу
+
+git push [:] <branch> - видалення ремоут бранчі 
+ 
+
+generating new SSH keys
+
+
+ls [-la, -lt] - той самий dir Win
+
+pwd - показує де ти знаходишся
+
+mkdir "dir_name" - створення директорії 
+
+touch <file_name> - створення файлів
+
+grep <something> - фольтрування по критерію
+
+rm <file_name> - видалення файлу
+
+rm -rf <dir_name> - видалення директорії

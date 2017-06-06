@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+}
+
+.game-block{
+	
+	width:1200px;
+	height:500px;
+	margin:3% auto;
+	border: 10px solid red;
+}
+
+
+.style{
+	background: url(img/Battle_City_Tank_Player1.png) no-repeat 0 0;
+}
+
+#tank {
+  width: 64px;
+  height: 60px;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+ /*
+    transform: rotate(-90deg); top
+		transform: rotate(90deg); dowen
+		transform: rotate(-180deg); raight
+*/
+
+.bullet{
+  width: 20px;
+  height: 4px;
+  background-color: white;
+	padding:0;
+  transition: all 1s ease-out 1s;
+   position: absolute; 
+}
